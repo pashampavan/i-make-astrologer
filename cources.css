@@ -1,0 +1,160 @@
+.cources .ccont
+{
+    margin-top: 80px;
+    display: flex;
+}
+.cources .ccont2
+{
+    display: flex;
+    margin-top: 80px;
+}
+.cources
+{
+    background-color: white;
+    box-sizing: border-box;
+    padding: 150px;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+.header
+{
+    border-bottom: 1px grey solid;
+}
+.cources .ccont .box
+{
+    margin: 30px 162px 2px 119px;
+    padding: 2px 2px;
+    width: 275px;
+}
+.cources .ccont2 .box
+{
+    margin: 115px 162px 2px 222px;
+    padding: 2px 2px;
+    width: 410px;
+}
+.cources .ccont .img
+{
+    margin: 2px 2px 2px 124px;
+    padding: 2px 2px;
+}
+.cources .ccont2 .img
+{
+    margin: 2px 2px 2px -8px;
+    padding: 2px 2px;
+}
+.cources .box ul
+{
+    padding-left: 55px;
+    width: 234px;
+    margin-bottom: 35px;
+    margin-top: 10px;
+}
+.cources  .box h3
+{
+    font-size: 25px;
+    margin: 20px 45px;
+    width: 330px;
+    text-align: center;
+}
+.cources .ccont .box h1{
+
+    font-size: 45px;
+    margin-bottom: 0px;
+
+}
+.cources .ccont .box ul li
+{
+   list-style: decimal;
+   font-family: 'Baloo Bhai 2', cursive;
+   font-size: 25px;
+}
+.cources .box a:hover
+{
+    background-color: #430a5b;
+    color:white;
+    border: 1px white solid;
+}
+.cources .box .a
+{
+    
+    width: 313px;
+    margin:10px auto ;
+    align-items: center;
+    align-content: center;
+}
+.cources .box .paid
+{
+    width: 227px;
+
+}
+.cources .box .free
+{
+    width: 280px;
+
+}
+.cources .box .brain
+{
+    width: 265px;
+
+}
+.cources .box a
+{
+    padding: 9px 30px;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #29003A;
+    margin-top: 10px;
+}
+.cources .left
+{
+    margin-left: -115px;
+}
+/* .cources .ccont
+{
+    background-image: url('https://cdn.pixabay.com/photo/2018/02/28/07/43/stars-3187445__340.jpg') ;
+    min-height: 500px; 
+    background-attachment: fixed; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cources .p1
+{
+    background-image: url('https://cdn.pixabay.com/photo/2013/03/24/11/10/horoscope-96309__340.jpg') ;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cources .p2
+{
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/17/15/24/armillar-ball-3408811__340.jpg') ;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cources .p3
+{
+    background-image: url('https://cdn.pixabay.com/photo/2018/05/17/15/47/globe-3408868__340.jpg') ;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cources .p4
+{
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/08/06/03/british-columbia-2382640__340.jpg') ;
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

@@ -1,0 +1,83 @@
+.contact
+{
+    width: 50%;
+    margin: 10px auto;
+    padding-top: 60px;
+}
+.contact h1
+{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 70px auto;
+}
+.contact h2
+{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin: 2px auto;
+    
+}
+.contact p
+{
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 2px auto;
+    color: #edd1fa;
+}
+.contact a:hover
+{
+    background-color:#3f0a55;
+    color: white;
+}
+.contact a
+{
+    padding: 9px 30px;
+    text-decoration: none;
+    border: 1px white solid;
+    border-radius: 30px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: #29003A;
+}
+.contact .a img
+{
+    height: 20px ;
+    width: 20px;
+    margin: -6px 1px;
+}
+.contact .a
+{
+    width: 300px;
+    margin:30px auto ;
+
+}
+.contact table td,th
+{
+    color: white;
+    border: 1px white solid;
+    padding-left: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.contact table
+{
+    width: 50%;
+    margin: 20px auto;
+}
+.footer h1
+{
+    color: #29003A;
+}
+.footer
+{
+    color: #29003A;
+    background-color: white;
+    margin: 0px auto;
+    padding: 1px 20px;
+}
+.contact .time
+{
+    margin-top: 60px;
+    margin-bottom: 0px;
+}

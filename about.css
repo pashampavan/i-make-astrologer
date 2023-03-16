@@ -1,0 +1,42 @@
+
+.about
+{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: white;
+}
+.header
+{
+    border-bottom: 1px grey solid;
+}
+.about .aboutInner
+{
+    display: flex;
+}
+.about  h1
+{
+    color:#29003A;
+    text-align: center;
+    font-size: 50px;
+}
+.about .aboutInner .box
+{
+    margin: 2px 120px 2px 84px;
+    padding: 2px 2px;
+}
+.about .aboutInner .img img
+{
+
+    height: 473px;
+    width: 400px;
+}
+.about .aboutInner .img
+{
+    margin: 64px 86px 2px 2px;
+    padding: 2px 2px;
+}
+.about .aboutInner .box p
+{
+    font-size: 18px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
