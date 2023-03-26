@@ -1,7 +1,7 @@
 
 .about
 {
-    padding-top: 150px;
+    padding-top: 70px;
     padding-bottom: 50px;
     /* background-color: white; */
     color: aliceblue;
@@ -11,9 +11,10 @@
     content: '';
     background-image: url('https://cdn.pixabay.com/photo/2018/07/18/17/10/cosmos-3546765_960_720.jpg');
     position: absolute;
-    height: 100%;
+    height: 105%;
     width: 100%;
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     opacity: .2;
