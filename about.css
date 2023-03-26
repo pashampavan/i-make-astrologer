@@ -3,7 +3,21 @@
 {
     padding-top: 150px;
     padding-bottom: 50px;
-    background-color: white;
+    /* background-color: white; */
+    color: aliceblue;
+}
+.about::before
+{
+    content: '';
+    background-image: url('https://cdn.pixabay.com/photo/2018/07/18/17/10/cosmos-3546765_960_720.jpg');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: .2;
+    z-index: -2;
 }
 .header
 {
@@ -15,7 +29,7 @@
 }
 .about  h1
 {
-    color:#29003A;
+    color:white;
     text-align: center;
     font-size: 50px;
 }
@@ -27,12 +41,12 @@
 .about .aboutInner .img img
 {
 
-    height: 473px;
-    width: 400px;
+    height: 422px;
+    width: 607px;
 }
 .about .aboutInner .img
 {
-    margin: 64px 86px 2px 2px;
+    margin: 64px -172px 2px 2px;
     padding: 2px 2px;
 }
 .about .aboutInner .box p
