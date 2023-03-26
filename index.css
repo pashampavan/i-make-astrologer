@@ -1,3 +1,8 @@
+body{
+    scroll-behavior: smooth;
+    overflow-y: none;
+    overflow-x: none;
+}
 .header .nav ul
 {
     display: flex;
@@ -15,6 +20,7 @@ body{
     box-sizing: border-box;
     margin: 0px;
     width: 100vw;
+    z-index: 7;
 }
 .header .nav .title h1
 {
@@ -67,7 +73,8 @@ body{
 body
 {
     /* background-color:  #29003A; */
-    background-color:  #180121;
+    /* background-color:  #180121; */
+    background-color: black;
     margin: 0px;
     overflow-x: none;
 }
@@ -80,19 +87,60 @@ body
     padding-top: 71px;
     
 }
+.container1 img
+{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+.container1 .sky
+{
+    left: 0px;
+    top: auto;
+    height: 700px;
+    width: 100vw;
+}
+.container1 .fullMoon
+{
+    left: 1100px;
+    top: 200px;
+    /* margin-left: 1100px; */
+    height: 173px;
+    width: 278px;
+    z-index: 3;
+}
+.container1 .mountain
+{
+    bottom: -88px;
+    height: 117vh;
+    width: 100vw;
+    z-index: 4;
+}
+.container1 .lightning
+{
+    /* top: -50px;
+    right: 100px; */
+    margin-left: 1100px;
+    margin-top: 10px;
+    /* margin-right: 200px; */
+    height: 100px;
+    width: 200px;
+    z-index: 2;
+}
 .container1 
 {
-    display: flex;
-    background-image: url('first.jpg') ;
-    /* Create the parallax scrolling effect */
+    /* display: flex; */
+    /* background-image: url('first.jpg') ;
     min-height: 90vh;
     min-width: 600px;
     color: #180121;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    height: 100vh;
 }
+
 .container .container1 .box .a a:hover
 {
         background-color: #3d0b54;
@@ -118,8 +166,10 @@ body
 .container .container1 .box
 {
    /* display: inline-block; */
+   position: absolute;
    margin: 31px 42px 2px 154px;
    padding: 2px 224px 2px 2px;
+   z-index: 3;
 }
 .container .container1 .box .a
 {
@@ -215,7 +265,7 @@ body
 }
 .video
 {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 .footer
 {
@@ -241,7 +291,7 @@ body
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: .1;
+    opacity: .3;
     z-index: -2;
 
 }
@@ -269,4 +319,15 @@ body
         margin: 9px 79px;
         width: 54%;
         height: 261px;
+}
+.video::before
+{
+    content: '';
+    position: absolute;
+    top: 790px;
+    height: 150px;
+    width: 100%;
+    background-image: linear-gradient(transparent,black,transparent);
+    /* background-color:black; */
+    z-index: 100;
 }
