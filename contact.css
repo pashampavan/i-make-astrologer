@@ -81,3 +81,17 @@
     margin-top: 60px;
     margin-bottom: 0px;
 }
+.contact::before
+{
+    content: '';
+    background-image: url('sky2.jpg');
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: .2;
+    z-index: -2;
+}
