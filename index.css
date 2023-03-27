@@ -20,7 +20,7 @@ body{
     box-sizing: border-box;
     margin: 0px;
     width: 100vw;
-    z-index: 90000;
+    z-index: 1000;
 }
 .header .nav .title h1
 {
@@ -29,11 +29,12 @@ body{
     font-weight: 600;
     color: #29003A;
     font-family: 'Rajdhani', sans-serif;
-
+    
 }
 .header .nav .title
 {
     margin: auto 25px;
+    margin-left: 0px;
 }
 .header .nav
 {
@@ -110,12 +111,28 @@ body
     width: 278px;
     z-index: 3;
 }
+/* .nav .title h1{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 14;
+} */
+.nav .planet
+{
+    /* position: absolute; */
+    top:20px;
+    left: 180px;
+    height: 50px;
+    z-index: 12;
+    margin-left: 10px;
+    margin-top: 8px;
+}
 .container1 .mountain
 {
     bottom: -88px;
     height: 117vh;
     width: 100vw;
-    z-index: 4;
+    z-index: 6;
 }
 .container1 .lightning
 {
@@ -164,13 +181,17 @@ body
     margin-bottom: 14px;
     font-size: 45px;
 }
+.container .container1 .box:hover
+{
+    z-index: 7;
+}
 .container .container1 .box
 {
    /* display: inline-block; */
    position: absolute;
    margin: 31px 42px 2px 154px;
    padding: 2px 224px 2px 2px;
-   z-index: 5;
+   z-index: 9;
 }
 .container .container1 .box .a
 {

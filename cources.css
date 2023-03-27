@@ -10,11 +10,12 @@
 }
 .cources
 {
-    background-color: white;
+    background-color: black;
     box-sizing: border-box;
     padding: 150px;
     padding-bottom: 40px;
     padding-top: 100px;
+    color: aliceblue;
 }
 .header
 {
