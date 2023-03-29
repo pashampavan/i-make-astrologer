@@ -43,11 +43,11 @@
 {
 
     height: 422px;
-    width: 607px;
+    width: 28vw;
 }
 .about .aboutInner .img
 {
-    margin: 64px -172px 2px 2px;
+    margin: 64px 2px 2px 2px;
     padding: 2px 2px;
 }
 .about .aboutInner .box p
