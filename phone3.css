@@ -1,0 +1,26 @@
+.header .nav ul
+{
+    margin: 2px 3px 3px 0rem;
+}
+.header .nav ul li a
+{
+    font-size: 10px;
+}
+.header .nav 
+{
+    flex-direction: column;
+}
+.video iframe
+{
+    height: 60vh;
+}
+.container1 .fullMoon
+{
+    left: 62vw;
+}
+.container .container1 .box
+{
+    /* display: inline-block; */
+    margin: 31px 42px 2px 42px;
+    padding: 2px 8px 2px 2px;
+}

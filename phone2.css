@@ -1,0 +1,37 @@
+.header .nav ul
+{
+    margin: 2px 3px 3px 10rem;
+}
+.header .nav .title h1
+{
+    font-size: 25px;
+}
+.header .nav ul li a
+{
+    font-size: 10px;
+}
+.summury .box
+{
+    border-bottom: 1px solid white;
+}
+.summury
+{
+    flex-direction: column;
+    padding: 0px;
+}
+.summury .box ul li{
+    font-size: 20px;
+
+}
+.summury .box h1
+{
+    font-size: 35px;
+}
+.container .container1 .box h1
+{
+    font-size: 30px;
+}
+.container .container1 .box h3
+{
+    font-size: 17px;
+}

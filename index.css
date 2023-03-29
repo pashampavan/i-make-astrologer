@@ -2,15 +2,14 @@ body{
     scroll-behavior: smooth;
     overflow-y: none;
     overflow-x: none;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
 }
 .header .nav ul
 {
     display: flex;
-    margin: 2px 3px 3px 520px;
+    margin: 2px 3px 3px 30rem;
     padding: 2px 2px;
-}
-body{
-    font-family: 'Noto Sans', sans-serif;
 }
 .header  
 {
@@ -86,7 +85,15 @@ body
 .container
 {
     padding-top: 71px;
+    display: flex;
+    /* width: 100vh; */
+    /* height: 1022px; */
+    flex-direction: column;
+
     
+}
+.container1{
+    display: flex;
 }
 .container1 img
 {
@@ -104,7 +111,7 @@ body
 }
 .container1 .fullMoon
 {
-    left: 1100px;
+    left: 78vw;
     top: 200px;
     /* margin-left: 1100px; */
     height: 173px;
@@ -187,11 +194,11 @@ body
 }
 .container .container1 .box
 {
-   /* display: inline-block; */
-   position: absolute;
-   margin: 31px 42px 2px 154px;
-   padding: 2px 224px 2px 2px;
-   z-index: 9;
+    /* display: inline-block; */
+    position: absolute;
+    margin: 31px 42px 2px 154px;
+    padding: 2px 224px 2px 2px;
+    z-index: 9;
 }
 .container .container1 .box .a
 {
@@ -267,10 +274,13 @@ body
 }
 .video iframe
 {
-    width: 142vh;
-    height: 600px;
-    margin: 50px 194px;
+    width: 88vw;
+    height: 42rem;
+    margin: 50px 24px;
 }
+/* width: 88vw;
+height: 42rem;
+margin: 49px 23px; */
 .video h1
 {
     text-align: center;
@@ -288,6 +298,8 @@ body
 .video
 {
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
 }
 .footer
 {
@@ -301,7 +313,7 @@ body
    padding: 27px 79px;
    padding-top: 40px;
 }
-.summury .box1::before
+.summury::before
 {
     content: "";
     background-image: url('https://cdn.pixabay.com/photo/2018/02/26/16/58/astronomy-3183482__340.jpg');
@@ -309,7 +321,7 @@ body
     background-attachment: fixed;
     /* top: 0px; */
     left: 0px;
-    height: 80%;
+    height: 70vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -332,15 +344,19 @@ body
 }
 .summury .box
 {
-    width: 33%;
+    /* width: 33%; */
     padding: 16px -7px;
+    padding-bottom: 40px;
     color: #ecdbf4;
+    /* display: flex; */
     /* padding-top: 91px; */
+    margin: 10px 60px;
+    /* border-bottom: 2px solid white; */
 }
 .summury .box img
 {
-        margin: 9px 79px;
-        width: 54%;
+        margin: 9px 9px;
+        width: 80%;
         height: 261px;
 }
 .video::before

@@ -1,0 +1,12 @@
+.header .nav ul
+{
+    margin: 2px 3px 3px 20rem;
+}
+.header .nav .title h1
+{
+    font-size: 30px;
+}
+.header .nav ul li a
+{
+    font-size: 15px;
+}
