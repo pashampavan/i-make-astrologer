@@ -24,3 +24,97 @@
 h2 {
     font-size: 1.3em;
 }
+.cources .ccont .img img
+{
+    width: 40vw;
+}
+.cources .ccont2 .img img
+{
+    width: 40vw;
+}
+.cources
+{
+    margin-left: 0px;
+    padding-left: 15px;
+}
+.cources .ccont .box h1 {
+    font-size: 25px;
+}
+
+element.style {
+}
+.cources .ccont .box ul li {
+    font-size: 20px;
+}
+.cources .ccont2 .box ul li {
+    font-size: 20px;
+}
+.cources .ccont .box {
+    margin: 47px -27px 2px 7px;
+}
+.cources .ccont2 .box {
+    margin: 47px -27px 2px 7px;
+}
+.cources .box h3 {
+    font-size: 18px;
+}
+.cources .p2 .box h3
+{
+    margin: 0px;
+    margin-left: 112px;
+}
+.cources .ccont .box h1 {
+    font-size: 19px;
+}
+
+.cources .box a {
+    font-size: 12px;
+}
+.cources .box .a {
+    margin: 10px 107px;
+}
+.cources .box .free {
+    width: 235px;
+}
+.cources .box h3 {
+    font-size: 25px;
+    margin: 20px 61px;
+    width: 241px;
+    text-align: center;
+}
+.cources .ccont2 .img img {
+    width: 40vw;
+}
+.cources .box h3 {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.cources .box .a {
+    margin: 1px 2px;
+    margin-top:30px ;
+}
+.cources .p2 .box .a{
+    width: 338px;
+    margin-left: 154px;
+    margin: 0px;
+    margin-left: 109px;
+    margin-top: 20px;
+}
+.contact h1 {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    margin: 79px auto;
+    margin-bottom: 20px;
+}
+.contact h2 {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    margin: 2px auto;
+}
+.contact {
+    width: 88%;
+    margin: 10px auto;
+    padding-top: 60px;
+}

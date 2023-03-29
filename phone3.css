@@ -31,3 +31,32 @@
 .about {
     padding-top: 113px;
 }
+.about .aboutInner .img img
+{
+
+    height: 422px;
+    width: 38vw;
+}
+.cources .ccont .box {
+    margin: 32px 28px 2px 7px;
+}
+.cources .ccont2 .box {
+    margin: 32px 28px 2px 7px;
+}
+.cources .ccont .box h1 {
+    font-size: 34px;
+}
+.cources .ccont2 .box h1 {
+    font-size: 34px;
+}
+ul li {
+    font-size: 20px;
+}
+.cources .ccont .img img
+{
+    margin-top: 60px;
+}
+.cources .ccont2 .img img
+{
+    margin-top: 60px;
+}

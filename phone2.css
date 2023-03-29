@@ -38,3 +38,19 @@
 .about .aboutInner .box {
     margin: 2px 62px 2px 30px;
 }
+
+.cources .ccont .img {
+    margin: 2px 2px 2px 1px;
+}
+.cources .ccont2 .img {
+    margin: 2px 2px 2px 1px;
+}
+.cources {
+    padding: 40px;
+}
+.cources .ccont .box {
+    margin: 32px 131px 2px 72px;
+}
+.cources .ccont2 .box {
+    margin: 32px 131px 2px 72px;
+}

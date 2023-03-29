@@ -43,12 +43,11 @@
 {
 
     height: 422px;
-    width: 28vw;
+    width: 38vw;
+    margin-top: 32px;
 }
-.about .aboutInner .img
-{
-    margin: 64px 2px 2px 2px;
-    padding: 2px 2px;
+.cources .ccont .img {
+    margin: 90px 2px 2px 1px;
 }
 .about .aboutInner .box p
 {
