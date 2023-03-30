@@ -135,5 +135,8 @@ element.style {
 }
 .contact
 {
-    height: 69vh;
+    height: 76vh;
+}
+.contact::before {
+    height: 68vh;
 }
