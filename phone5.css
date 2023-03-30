@@ -42,3 +42,15 @@
 .cources .p2 .box .a {
     width: 250px;
 }
+.video {
+    margin-top: -50px;
+}
+.video h1 {
+    font-size: 28px;
+}
+.video h3 {
+    font-size: 18px;
+}
+.about .aboutInner .box {
+    margin: 2px 12px 2px 30px;
+}
