@@ -60,3 +60,13 @@ ul li {
 {
     margin-top: 60px;
 }
+.about .aboutInner
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about .aboutInner .img img {
+    height: 422px;
+    width: 90vw;
+    margin-left: 40px;
+}
