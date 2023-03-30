@@ -115,7 +115,7 @@ element.style {
 }
 .contact {
     width: 88%;
-    margin: 2px auto;
+    margin: 0px auto;
     padding-top: 60px;
 }
 .about .aboutInner .img img {
@@ -135,5 +135,5 @@ element.style {
 }
 .contact
 {
-    height: 68vh;
+    height: 69vh;
 }
