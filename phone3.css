@@ -70,3 +70,13 @@ ul li {
     width: 90vw;
     margin-left: 40px;
 }
+.books .card
+{
+    height: 670px;
+    width: 42vw;
+}
+.book_title
+{
+padding-top: 150px;
+}
+

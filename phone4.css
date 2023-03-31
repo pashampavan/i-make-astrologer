@@ -140,3 +140,12 @@ element.style {
 .contact::before {
     height: 68vh;
 }
+.books .card
+{
+    height: 670px;
+    width: 40vw;
+}
+.books .card h2
+{
+  font-size: 16px;  
+}

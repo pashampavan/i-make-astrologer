@@ -57,3 +57,17 @@
 .contact {
     margin: 0px auto;
 }
+.books .card .title
+{
+    height: 40px;
+}
+.books .card
+{
+    height: 500px;
+    width: 90vw;
+}
+.books .card a
+{
+   
+    margin-left: 2vw;
+}
