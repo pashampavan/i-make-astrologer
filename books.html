@@ -8,6 +8,68 @@
 </head>
 <link rel="stylesheet" href="index.css">
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+<style>
+.books
+{
+    margin-top: 20px;
+    display: flex;
+    height: 100vh;
+}
+.books .card:hover
+{
+    box-shadow: 0 0 11px 0px black;
+}
+.books .card img
+{
+    width: 100%;
+    height: 67%;
+}
+.books .card h2
+{
+    text-align: left;
+    padding-left: 15px;
+    margin:10px 2px 0px 2px;
+    
+}
+.books .card p
+{
+    padding-left: 15px;
+
+}
+.books .card p
+{
+    color: white;
+
+}
+.books .card a
+{
+    border: 1px white solid;
+    border-radius: 25px;
+    padding: 4px 20px;
+     font-family: 'Baloo Bhai 2', cursive;
+     font-weight: 400;
+    text-decoration: none;
+    color: #29003A;
+    margin-left: 1vw;
+    background-color: white;
+}
+.books .card
+{
+    /* background-color: rgb(37, 34, 0); */
+    border: 2px solid white;
+    color: white;
+    height: 510px;
+    width: 21vw;
+    margin: 28px 19px;
+    display: inline-block;
+}
+.books .card a:hover
+{
+        background-color: #3d0b54;
+        color: white;
+}
+</style>
 <body>
     <div class="header">
         <nav class="nav">
@@ -27,7 +89,7 @@
                     <a href="index.html" >HOME</a>
                 </li>
                 <li>
-                    <a href="about.html"  class="active">ABOUT</a>
+                    <a href="about.html"  class="">ABOUT</a>
                 </li>
                 <li>
                     <a href="cources.html">COURSES</a>
@@ -46,6 +108,21 @@
                 </li>
             </ul>
         </nav>
+    </div>
+    <h1 style="text-align: center;color: aliceblue;padding-top: 100px;">MY BOOKS</h1>
+    <div class="books">
+        <div class="card ">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/41bE9+xIfLL._AC_UY327_FMwebp_QL65_.jpg" alt=""/>
+            <h2>Remedies Orthodox Astrology</h2>
+            <p>by Satyanarayana Naik | 1 January 2020</p>
+              <a href="https://www.amazon.in/Remedies-Orthodox-Astrology-Satyanarayana-Naik/dp/8194306426/ref=sr_1_1?crid=2EPATFOE0LDQT&keywords=satyanarayana+naik+books&qid=1680274941&sprefix=satyanarayana+naik+books%2Caps%2C225&sr=8-1" target="_blank">BUY NOW</a>
+          </div>
+        <div class="card ">
+            <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T2/images/I/51Q9xTp2uYL._SX317_BO1,204,203,200_.jpg" alt=""/>
+            <h2>Prediction Secrets Naadi Astrology...</h2>
+            <p>by Satyanarayana Naik | 1 January 2015</p>
+              <a href="https://www.amazon.in/Prediction-Secrets-Astrology-Revised-Enlarged/dp/8170821738/ref=sr_1_2?crid=2EPATFOE0LDQT&keywords=satyanarayana+naik+books&qid=1680274941&sprefix=satyanarayana+naik+books%2Caps%2C225&sr=8-2" target="_blank">BUY NOW</a>
+          </div>
     </div>
 </body>
 </html>
