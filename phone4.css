@@ -172,3 +172,19 @@ h2 {
     margin: 1px 0px;
     padding: 2px 14px;
 }
+.articles .art img {
+    width: 100%;
+}
+.intro .sign h1
+{
+   font-size: 20px;
+} 
+.intro p {
+    font-size: 17px;
+}
+.intro {
+    padding-top: 130px;
+}
+.articles .art p {
+    font-size: 17px;
+}
