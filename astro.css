@@ -1,0 +1,30 @@
+.intro
+{
+    padding-top: 100px;
+    color: white;
+    width: 80vw;
+    margin: 0px auto;
+}
+.intro img
+{
+    width: 80%;
+    height: 60vh;
+}
+.intro .sign 
+{
+    display: inline-block;
+    width: 40%;
+    margin: 2px 2px;
+    padding: 2px 2px;
+}
+/* .intro .sign img
+{
+    width: 10vw;
+    height: 10vh;
+    margin: 2px 2px;
+    padding: 2px 2px;
+} */
+.intro p
+{
+    font-size: 20px;
+}
