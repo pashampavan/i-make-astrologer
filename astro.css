@@ -10,6 +10,27 @@
     width: 80%;
     height: 60vh;
 }
+.intro .sign img {
+    height: 80px;
+    width: 100px;
+    margin: 3px 1px 1px 20px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 69px;
+    /* border: 2px solid white; */
+}
+.intro .sign h3
+{
+    display: inline;
+} 
+.intro .sign .title
+{
+    height: 80px;
+    display: flex;
+}
+.intro .sign p
+{
+    margin-top: 0px;
+} 
 .intro .sign 
 {
     display: inline-block;
