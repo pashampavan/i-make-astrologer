@@ -79,3 +79,9 @@
 .header .nav ul li a {
     padding: 2px 10px;
 }
+.intro p {
+    font-size: 17px;
+}
+.articles .art p {
+    font-size: 17px;
+}

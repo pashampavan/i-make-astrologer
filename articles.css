@@ -1,0 +1,21 @@
+.articles .art h1, h2
+{
+    text-align: center;
+    color:white;
+}
+.articles .art p
+{
+    color: white;
+    font-size: 20px;
+}
+.articles .art img
+{
+    width: 80%;
+    height: 60vh;
+}
+.articles
+{
+    padding-top:100px ;
+    width: 80%;
+    margin: 2px auto;
+}
