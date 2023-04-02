@@ -16,3 +16,9 @@
 .header .nav ul {
     margin: 2px 3px 3px 8rem;
 }
+.books .card {
+    height: 663px;
+}
+.books .card .title {
+    height: 95px;
+}
