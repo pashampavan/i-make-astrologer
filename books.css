@@ -1,8 +1,6 @@
 .books
 {
     margin-top: 20px;
-    /* display: flex; */
-    height: 100vh;
 }
 .books .card:hover
 {
