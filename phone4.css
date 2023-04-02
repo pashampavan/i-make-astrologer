@@ -198,12 +198,8 @@ h2 {
     display: inline-block;
 }
 .books .card {
-    height: 500px;
-    width: 44%;
-}
-.books .card {
     height: 607px;
-    width: 48vw;
+    width: 44vw;
 }
 .books .card .title {
     height: 65px;
