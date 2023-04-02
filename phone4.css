@@ -188,3 +188,20 @@ h2 {
 .articles .art p {
     font-size: 17px;
 }
+.books .card {
+    /* background-color: rgb(37, 34, 0); */
+    border: 2px solid rgb(230, 142, 54);
+    color: white;
+    height: 580px;
+    width: 21vw;
+    margin: 8px 1px;
+    display: inline-block;
+}
+.books .card {
+    height: 500px;
+    width: 48vw;
+}
+.books .card {
+    height: 607px;
+    width: 48vw;
+}

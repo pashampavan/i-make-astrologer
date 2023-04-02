@@ -61,11 +61,11 @@
 {
     height: 40px;
 }
-.books .card
+/* .books .card
 {
     height: 500px;
     width: 89vw;
-}
+} */
 .books .card a
 {
    
@@ -83,4 +83,7 @@
 .header .nav ul li {
     margin: 12px -1px;
     padding: 2px 0px;
+}
+.books .card .title {
+    height: 76px;
 }
