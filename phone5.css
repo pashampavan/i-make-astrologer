@@ -87,3 +87,6 @@
 .books .card .title {
     height: 76px;
 }
+.books .card {
+    width: 46vw;
+}

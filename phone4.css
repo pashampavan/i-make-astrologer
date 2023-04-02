@@ -205,3 +205,6 @@ h2 {
     height: 607px;
     width: 48vw;
 }
+.books .card .title {
+    height: 65px;
+}
