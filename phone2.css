@@ -66,3 +66,8 @@
 .books .card {
     height: 676px;
 }
+
+.summury .box{
+    width: 50%;
+    margin: 20px auto;
+}

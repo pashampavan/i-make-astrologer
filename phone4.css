@@ -204,3 +204,7 @@ h2 {
 .books .card .title {
     height: 65px;
 }
+.summury .box{
+    width: 81%;
+    margin: 20px auto;
+}
