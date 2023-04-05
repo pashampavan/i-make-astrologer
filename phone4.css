@@ -189,7 +189,7 @@ h2 {
     width: 40%;
 }
 .books .card {
-    height: 42%;
+    height: 42vh;
     margin: 8px 5%;
     width: 28vw;
     margin-top: 70px;
