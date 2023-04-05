@@ -194,7 +194,8 @@ h2 {
     width: 28vw;
     margin-top: 70px;
 }
-.books 
+.book_title
 {
-    padding-top: 120px;
+    padding-top: 130px;
+    font-size: 1rem;
 }
