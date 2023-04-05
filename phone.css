@@ -16,9 +16,17 @@
 .header .nav ul {
     margin: 2px 3px 3px 8rem;
 }
-.books .card {
+/* .books .card {
     height: 663px;
-}
+} */
 .books .card .title {
     height: 95px;
+}
+.books .card::after {
+    margin-top: -19px;
+    margin-left: -47px;
+}
+
+.books .card {
+    width: 23vw;
 }

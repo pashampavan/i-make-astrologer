@@ -70,18 +70,28 @@ ul li {
     width: 90vw;
     margin-left: 40px;
 }
-.books .card
-{
-    height: 670px;
-    width: 42vw;
-}
-.book_title
-{
-padding-top: 150px;
-}
 
 .summury .box{
     width: 61%;
     margin: 20px auto;
 }
+.books .card::after {
+    margin-left: -50px;
+    margin-top: -13px;
+}
+.books .card::after {
+    margin-left: -58px;
+    margin-top: -16px;
+    width: 40%;
+}
+.books .card {
+    height: 45vh;
+    margin: 8px 5%;
+    width: 25vw;
+    margin-top: 80px;
+}
+/* .books 
+{
+    padding-top: 120px;
+} */
 

@@ -1,21 +1,39 @@
 .books
 {
-    margin-top: 20px;
-    background-color: white;
+  /* background-image: url('https://media.istockphoto.com/id/509684973/photo/shelves.jpg?b=1&s=170667a&w=0&k=20&c=d_nlZcIx2q_Hu1wwo_nIZo1hTuHs0xtftHBbASSUtCU=');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-size: cover; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  /* width: 100%; */
+  margin-top: 0px;
+  padding-top: 60px;
+    width: 100%;
+    /* margin: 2px auto; */
+}
+body{
+    background-image: url('https://cdn.pixabay.com/photo/2014/12/30/08/11/parquet-583691__340.jpg');
+    scroll-behavior: smooth;
+    overflow-y: none;
+    overflow-x: none;
+    font-family: 'Noto Sans', sans-serif;
+    box-sizing: border-box;
+    overflow-x: none;
 }
 .books .card:hover
 {
     box-shadow: 0 0 11px 2px rgb(220, 144, 69);
-
 }
 .books .card img
 {
     width: 100%;
-    height: 67%;
-}
-body
-{
-    background-color: white;
+    height:100%;
+    /* height: 67z%; */
+    transition: all 1s .2s;
 }
 .books .card h2
 {
@@ -23,18 +41,23 @@ body
     padding-left: 15px;
     margin:10px 2px 0px 2px;
     color:rgb(220, 144, 69);
-    
-}
-.books .card .title
-{
-    height: 80px;
+    font-size: 20px;
 }
 .books .card p
 {
     padding-left: 15px;
     color: black;
-
+    font-size: 16px;
 }
+.books .card .title
+{
+    height: 60px;
+}
+/* .books .card p
+{
+    color: white;
+
+} */
 .books .card a
 {
     border: 1px rgb(203, 102, 1) solid;
@@ -47,18 +70,18 @@ body
     margin-left: 1vw;
     background-color: rgb(203, 102, 1);
 }
-.books .card
-{
+.books .card {
     /* background-color: rgb(37, 34, 0); */
     border: 2px solid rgb(230, 142, 54);
     color: white;
-    /* height: 100vh; */
-    height: 580px;
-    width: 21vw;
-    margin: 8px 19px;
-    margin-bottom: 60px;
+    height: 50vh;
+    /* height: 66vh; */
+    width: 18vw;
+    margin: 8px 12%;
+    margin-top: 78px;
     display: inline-block;
-    /* transition: all 3s .2s; */
+    margin-bottom: -2px;
+    transition: all 2s 1s;
 }
 .books .card a:hover
 {
@@ -69,25 +92,41 @@ body
 {
     text-align: center;color: aliceblue;margin-top:0px;padding-top: 100px;
 }
-/* .d
+.d
 {
     display: none;
-} */
-/* .shelf
+}
+.books .card::after
 {
+    content: "";
     position: absolute;
-    width: 500px;
-} */
-/* .books .card::before
+    background-image: url('https://cdn.pixabay.com/photo/2014/12/21/23/28/shelf-575409_960_720.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 150px;
+    width: 30%;
+    display: block;
+    margin-left: -80px; 
+margin-top: -22px;
+z-index: -2;
+/* margin-bottom: 300px; */
+     /* top: 200px;
+    left: 30px; */
+}
+.books h1
 {
-   content: "";
-   position: absolute;
-   background-image: url('shelf.png');
-   height: 30px;
-   width: 100%;
-   left: 0px; */
-   /* background-position: center;
-   background-size: cover;
-   background-repeat: no-repeat; */
-   /* z-index: 2; */
-/* }  */
+    color: black;
+    text-align: center;
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/12/19/30/wood-1819542_960_720.jpg');
+    width: 20%;
+    margin: 2px auto;
+}
+.books .card:hover img
+{
+    transform: scale(1.1);
+}
+/* .books .card:hover .d
+{
+    display: block;
+    transition: all 2s .2s;
+} */
