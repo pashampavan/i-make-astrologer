@@ -5,6 +5,7 @@ body{
     background-image: url('yellow.png');
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
     background-position: center;
     overflow-x: none;
     font-family: 'Noto Sans', sans-serif;
