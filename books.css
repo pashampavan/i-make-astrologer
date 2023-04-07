@@ -18,7 +18,7 @@ body{
 .books h1
 {
     text-align: center;
-    font-weight: 900;
+    /* font-weight: 900; */
     font-size: 40px;
 }
 .books .card
@@ -31,7 +31,7 @@ body{
     top:-79px;
     left:0px;
     display: inline-block;
-    margin: -5px 5px;
+    margin: -5px 1px;
     transition: all 2s .3s;
     opacity: 1;
     background-size: cover;
@@ -104,21 +104,17 @@ body{
     top: 24rem;
     left: 6rem;
     display: flex;
-    width: 250px;
-    margin: 16vh 2px 2px 60vw;
+    max-width: 220px;
+    margin: 95px 2px 2px 50vw;
     /* display: flex; */
 }
 .sec2 {
     top: 15rem;
-    left: 41rem;
-    width: 200px;
-    margin: 19vh 2px 2px 20vw;
+    left: 31rem;
+    max-width: 150px;
+    display: flex;
+    margin: 7vh 2px 2px 20vw;
 }
-.sec3 {
-    top: 7rem;
-    left: 73rem;
-}
-
 .books .show:hover
 {
     /* box-shadow: 0 0 11px 2px black; */
@@ -178,7 +174,7 @@ body{
     /* height: 66vh; */
     width: 15vw;
     position: absolute;
-    top: 2rem;
+    top: 4rem;
     left: 2rem;
     /* transition: all 2s 1s; */
 }
