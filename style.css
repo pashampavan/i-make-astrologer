@@ -1,0 +1,85 @@
+
+.books .show:hover
+{
+    /* box-shadow: 0 0 11px 2px black; */
+}
+.books .show img
+{
+    width: 100%;
+    height:100%;
+    /* height: 67z%; */
+    transition: transform 1s .2s;
+}
+.books .show h2
+{
+    text-align: left;
+    padding-left: 15px;
+    margin:10px 2px 0px 2px;
+    color:black;
+    font-size: 20px;
+    display: none;
+}
+.books .show p
+{
+    padding-left: 15px;
+    color: black;
+    font-size: 16px;
+    
+    display: none;
+}
+.books .show .title
+{
+    height: 60px;
+    display: none;
+}
+/* .books .show p
+{
+    color: white;
+
+} */
+.books .show a
+{
+    border: 1px black solid;
+    border-radius: 25px;
+    padding: 4px 20px;
+     font-family: 'Baloo Bhai 2', cursive;
+     font-weight: 400;
+    text-decoration: none;
+    color: #29003A;
+    margin-left: 1vw;
+    background-color: rgb(203, 102, 1);
+    transition: all 1s 1s;
+}
+.books .show{
+    /* background-color: rgb(37, 34, 0); */
+    /* border: 2px  black solid; */
+    color: white;
+    /* height: 100%; */
+    /* height: 66vh; */
+    width: 15vw;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    /* transition: all 2s 1s; */
+}
+.books .show a:hover
+{
+        background-color: rgb(172, 89, 6);
+        /* color: white; */
+}
+.book_title
+{
+    text-align: center;color: aliceblue;margin-top:0px;padding-top: 100px;
+}
+.book_title
+{
+    color: black;
+    text-align: center;
+    /* background-image: url('https://cdn.pixabay.com/photo/2016/11/12/19/30/wood-1819542_960_720.jpg'); */
+    width: 30%;
+    margin: 2px auto;
+}
+.books .show img:hover
+{
+    transform: scale(1.1);;
+}

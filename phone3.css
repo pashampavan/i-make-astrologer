@@ -75,7 +75,7 @@ ul li {
     width: 61%;
     margin: 20px auto;
 }
-.books .card::after {
+/* .books .card::after {
     margin-left: -50px;
     margin-top: -13px;
 }
@@ -93,7 +93,7 @@ ul li {
 .book_title
 {
     padding-top: 130px;
-}
+} */
 /* .books 
 {
     padding-top: 120px;

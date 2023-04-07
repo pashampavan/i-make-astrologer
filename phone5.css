@@ -84,11 +84,11 @@
     margin: 12px -1px;
     padding: 2px 0px;
 }
-.books .card::after {
+/* .books .card::after {
     margin-left: -22px;
     margin-top: -11px;
     width: 48%;
 }
 .books .card {
     width: 37vw;
-}
+} */
