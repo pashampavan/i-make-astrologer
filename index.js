@@ -31,9 +31,18 @@ function show(e,img,title,author,link){
         child2[i].style.left=null;
     }
     document.getElementById('show').innerHTML='';
-    e.style.top='-600px';
-    e.style.left='-70px';
-    e.style.opacity="0";
+    if(e.className==='card card1')
+    {
+        e.style.top='-16vh';
+        e.style.left='-50vw';
+        e.style.opacity="0";
+    }
+    if(e.className==='card card2')
+    {
+        e.style.top='-30vh';
+        e.style.left='-30vw';
+        e.style.opacity="0";
+    }
     setTimeout(()=>{
         let tag='https://'.concat(img);
         let tag2='https://'.concat(link);
