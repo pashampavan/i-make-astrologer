@@ -119,11 +119,5 @@ body
     background-position-y: 20px;
 }
 .nav .planet {
-    /* position: absolute; */
-    top: 20px;
-    left: 180px;
     height: 34px;
-    z-index: 12;
-    margin-left: 10px;
-    margin-top: 8px;
 }
