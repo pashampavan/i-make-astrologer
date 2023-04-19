@@ -19,5 +19,18 @@
     width: 80%;
     margin: 2px auto;
 }
+/* .p::before
+{
+    content: '';
+    position: absolute;
+    background-image: url('https://img.freepik.com/free-vector/watercolor-galaxy-colorful-background_23-2149233514.jpg?size=626&ext=jpg&uid=R94528306&ga=GA1.2.182989048.1674416923&semt=sph');
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+    opacity: .2;
 
+} */
 
