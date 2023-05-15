@@ -125,3 +125,16 @@ body
 .header .nav ul li a {
     letter-spacing: -0.8px;
 }
+.container1 .fullMoon {
+
+    height: 110px;
+    width: 186px;
+
+}
+.container1 .sky {
+    left: 0px;
+    top: auto;
+    height: 350px;
+    width: 100vw;
+    z-index: -2;
+}
