@@ -138,3 +138,15 @@ body
     width: 100vw;
     z-index: -2;
 }
+
+.container1 {
+    /* display: flex; */
+    height: 72vh;
+}
+
+.video::before {
+
+    top: 444px;
+
+    z-index: -1;
+}
