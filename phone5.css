@@ -121,3 +121,7 @@ body
 .nav .planet {
     height: 34px;
 }
+
+.header .nav ul li a {
+    letter-spacing: -0.8px;
+}
