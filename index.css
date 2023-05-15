@@ -370,3 +370,15 @@ margin: 49px 23px; */
     /* background-color:black; */
     z-index: 100;
 }
+
+.nav::after
+{
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    height: 20px;
+    width: 100%;
+    /* background-color: #29003A; */
+    background-image: linear-gradient(transparent,transparent,black);
+    z-index: 1000000;
+}
