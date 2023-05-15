@@ -150,3 +150,10 @@ body
 
     z-index: -1;
 }
+.container {
+    padding-top: 106px;
+}
+
+.video iframe {
+    margin: 8px 23px;
+}
