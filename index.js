@@ -3,6 +3,8 @@ let box=document.getElementById('box');
 let fullMoon=document.getElementById('fullMoon');
 let mountain=document.getElementById('mountain');
 let lightning=document.getElementById('lightning');
+
+
 window.addEventListener('scroll',function(){
     let value=window.scrollY;
     // lightning.style.marginTop=60+value*.8+'px';

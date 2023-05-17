@@ -18,7 +18,7 @@
 <link rel="stylesheet" media="screen and ( max-width:470px) " href="phone5.css">
 <body>
     <div class="header">
-        <nav class="nav">
+        <nav class="nav" onmouseleave="fun1()">
             <div style="display: flex;">
                 <img src="saturn.png" id="planet" class="planet"  alt="">
                 <div class="title">
@@ -29,19 +29,25 @@
                         तत्र सर्वत्र अन्यत्र अपि वर्तते ज्योतिः
                     </h1> -->
                 </div>
+
             </div>
             <ul>
                 <li>
                     <a href="index.html" >HOME</a>
                 </li>
                 <li>
-                    <a href="about.html" >ABOUT</a>
+                    <a href="about.html" class="e2">ABOUT</a>
                 </li>
                 <li>
-                    <a href="astrointro.html" class="e2">ASTRO-INTRO</a>
+                    <a  class="e2" id="f1" onmouseover="fun()" >INTRO-PRED</a>
+                    <div id="float" onmouseleave="fun1()">
+                        <a href="astrointro.html" class="f e2">ASTRO-INTRO </a>
+                        <a href="astrointro.html" class="f e2">MONTLY-PREDICTIONS</a>
+                        <a href="astrointro.html" class="f e2">YEARLY-PREDICTIONS</a>
+                    </div>
                 </li>
                 <li>
-                    <a href="cources.html"  >COURSES</a>
+                    <a href="cources.html" class="e2">COURSES</a>
                 </li>
                 <li>
                     <a href="books.html" class="e2">BOOKS</a>
@@ -50,10 +56,13 @@
                     <a href="articles.html" class="e2">ARTICLES</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="active">CONTACT</a>
+                    <a href="contact.html" class="e2 active">CONTACT</a>
                 </li>
             </ul>
         </nav>
+        <!-- <div class="pred">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/12/34/magnifying-glass-145942_960_720.png" alt="">
+        </div> -->
     </div>
     <div class="contact">
         <h1>CONTACT US</h1>
@@ -74,5 +83,15 @@
     <div class="footer">
         <h3 style="text-align:center">Copyright © 2023 I Make Astrologers - All Rights Reserved.</h3>
     </div>
+    <script>
+        function fun()
+        {
+            document.getElementById('float').style.display="block";
+        }
+        function fun1()
+        {
+            document.getElementById('float').style.display="none";
+        }
+    </script>
 </body>
 </html>

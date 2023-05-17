@@ -67,8 +67,8 @@ body{
 }
 .header .nav ul li a:hover
 {
-        background-color: #29003A;
-        color: aliceblue;
+    background-color: #29003A;
+    color: aliceblue;
 }
 body
 {
@@ -382,3 +382,44 @@ margin: 49px 23px; */
     background-image: linear-gradient(transparent,transparent,black);
     z-index: 1000000;
 }
+.pred img
+{
+    height: 50px;
+    width: 50px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+/* .pred
+{
+    position: absolute;
+    right: 10px;
+    top: 200px;
+} */
+#float
+{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* top: 30px; */
+    margin-top: 10px;
+    z-index: 9999999;
+    border-top: 1px black solid;
+    display: none;
+}
+.header .nav ul li  .f
+{
+    /* position: absolute; */
+    width: 190px;
+    font-size: 15px;
+    display: block;
+    color:black;
+    text-align: center;
+    background-color:white;
+    border: 1px black solid;
+    border-radius: 0px;
+    margin-top: 0px;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+}
+

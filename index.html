@@ -19,7 +19,7 @@
 <link rel="stylesheet" media="screen and ( min-width:2000px) " href="big.css">
 <body>
     <div class="header">
-        <nav class="nav">
+        <nav class="nav" onmouseleave="fun1()">
             <div style="display: flex;">
                 <img src="saturn.png" id="planet" class="planet"  alt="">
                 <div class="title">
@@ -39,8 +39,13 @@
                 <li>
                     <a href="about.html" class="e2">ABOUT</a>
                 </li>
-                <li>
-                    <a href="astrointro.html" class="e2">ASTRO-INTRO</a>
+                <li id="f1">
+                    <a  class="e2"  onmouseover="fun()" >INTRO-PRED</a>
+                    <div id="float" onmouseleave="fun1()">
+                        <a href="astrointro.html" class="f  e2" id="f11">ASTRO-INTRO </a>
+                        <a href="astrointro.html" class="f  e2" id="f12">MONTLY-PREDICTIONS</a>
+                        <a href="astrointro.html" class="f  e2" id="f13">YEARLY-PREDICTIONS</a>
+                    </div>
                 </li>
                 <li>
                     <a href="cources.html" class="e2">COURSES</a>
@@ -56,6 +61,9 @@
                 </li>
             </ul>
         </nav>
+        <!-- <div class="pred">
+            <img src="https://cdn.pixabay.com/photo/2013/07/12/12/34/magnifying-glass-145942_960_720.png" alt="">
+        </div> -->
     </div>
     <section class="container">
     <div class="container1">
@@ -124,5 +132,19 @@
         <h3 style="text-align:center;color: #ecdbf4;">Copyright © 2023 I Make Astrologers - All Rights Reserved.</h3>
     </div>
     <script src="index.js"></script>
+    <script>
+        function fun()
+        {
+            document.getElementById('float').style.display="block";
+            // document.getElementById('f11').style.marginTop="60px";
+            // document.getElementById('f12').style.marginTop="140px";
+            // document.getElementById('f13').style.marginTop="230px";
+
+        }
+        function fun1()
+        {
+            document.getElementById('float').style.display="none";
+        }
+    </script>
 </body>
 </html>
