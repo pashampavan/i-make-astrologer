@@ -399,6 +399,7 @@ margin: 49px 23px; */
 {
     position: absolute;
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     /* top: 30px; */
     margin-top: 10px;
@@ -416,9 +417,14 @@ margin: 49px 23px; */
     background-color:white;
     border: 1px black solid;
     border-radius: 0px;
-    margin-top: 0px;
+    margin-top: -15px;
     transition: all;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-timing-function: ease-in-out;
+}
+#float:hover .f
+{
+    margin-top: 0px;
+    cursor: pointer;
 }
 

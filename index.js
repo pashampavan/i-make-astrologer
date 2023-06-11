@@ -13,7 +13,6 @@ window.addEventListener('scroll',function(){
     box.style.marginTop=value*.6+'px';
     mountain.style.bottom=-88+value*.2+'px';
 })
-
 let name;
 function show(e,img,title,author,link){
     let child=document.getElementById('sec1').children;
