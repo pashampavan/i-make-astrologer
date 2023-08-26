@@ -1,4 +1,4 @@
-let sky=document.getElementById('sky');
+let sky=document.getElementsByClassName('sky');
 let box=document.getElementById('box');
 let fullMoon=document.getElementById('fullMoon');
 let mountain=document.getElementById('mountain');
