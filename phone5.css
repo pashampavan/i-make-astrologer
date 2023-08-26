@@ -160,15 +160,16 @@ body
 .cources .ccont .box {
     margin: 47px -52px 2px 7px;
 }
-.header .nav ul #f1 #float .f
-{
-    margin-top: -1px;
-    transition: none;
-}
+
 .intro img {
     height: 40vh;
 }
 .articles .art img {
     width: 70%;
     height: 40vh;
+}
+.header .nav ul #f1 #float .f
+{
+    margin-top: -1px;
+    transition: none;
 }
