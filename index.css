@@ -109,6 +109,10 @@ body
     width: 100vw;
     z-index: -2;
 }
+.container1 #sky
+{
+    display: none;
+}
 .container1 .fullMoon
 {
     left: 78vw;
@@ -406,6 +410,10 @@ margin: 49px 23px; */
     z-index: 9999999;
     border-top: 1px black solid;
     display: none;
+}
+.header .nav ul li  .e2
+{
+    cursor: pointer;
 }
 .header .nav ul li  .f
 {
