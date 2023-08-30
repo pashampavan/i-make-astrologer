@@ -173,3 +173,10 @@ body
     margin-top: -1px;
     transition: none;
 }
+.footer h3
+{
+    font-size: 10px;
+}
+.summury .box ul li {
+    font-size: 14px;
+}
