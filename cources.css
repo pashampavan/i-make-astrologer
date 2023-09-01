@@ -13,7 +13,7 @@
     background-color: black;
     box-sizing: border-box;
     padding: 150px;
-    padding-bottom: 40px;
+    padding-bottom: 10px;
     padding-top: 100px;
     color: aliceblue;
 }
@@ -121,52 +121,7 @@
 {
     margin-left: -115px;
 }
-/* .cources .ccont
-{
-    background-image: url('https://cdn.pixabay.com/photo/2018/02/28/07/43/stars-3187445__340.jpg') ;
-    min-height: 500px; 
-    background-attachment: fixed; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cources .p1
-{
-    background-image: url('https://cdn.pixabay.com/photo/2013/03/24/11/10/horoscope-96309__340.jpg') ;
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cources .p2
-{
-    background-image: url('https://cdn.pixabay.com/photo/2018/05/17/15/24/armillar-ball-3408811__340.jpg') ;
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cources .p3
-{
-    background-image: url('https://cdn.pixabay.com/photo/2018/05/17/15/47/globe-3408868__340.jpg') ;
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.cources .p4
-{
-    background-image: url('https://cdn.pixabay.com/photo/2017/06/08/06/03/british-columbia-2382640__340.jpg') ;
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
 .cources
 {
     background-color: white;

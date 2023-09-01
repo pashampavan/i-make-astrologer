@@ -27,7 +27,7 @@
     padding-left: 0px;
 }
 .cources .box h3 {
-    font-size: 21px;
+    font-size: 16px;
     width: 210px;
 }
 .cources .box a {
@@ -35,6 +35,7 @@
 }
 .cources .box .free {
     width: 225px;
+    margin-top: 19px;
 }
 .cources .ccont2 .box {
     width: 387px;
@@ -178,5 +179,17 @@ body
     font-size: 10px;
 }
 .summury .box ul li {
-    font-size: 14px;
+    font-size: 10px;
+}
+.summury .box h1 {
+    font-size: 20px;
+}
+.summury .box img {
+    margin: 9px 9px;
+    width: 69%;
+    height: 159px;
+}
+.footer {
+    /* border-top: 1px solid white; */
+    margin: -10px 10px;
 }
